@@ -1,6 +1,27 @@
 #include<stdio.h>
+#include <locale.h>
 #include<stdlib.h>
 #include "header.h"
+
+void exibirMenu() {
+    printf("\n");
+    printf(" ██████╗ ██╗      ██████╗ ███████╗███████╗██╗   ██╗\n");
+    printf("██╔════╝ ██║     ██╔═══██╗██╔════╝██╔════╝╚██╗ ██╔╝\n");
+    printf("██║  ███╗██║     ██║   ██║███████╗███████╗ ╚████╔╝ \n");
+    printf("██║   ██║██║     ██║   ██║╚════██║╚════██║  ╚██╔╝  \n");
+    printf("╚██████╔╝███████╗╚██████╔╝███████║███████║   ██║   \n");
+    printf(" ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   \n\n");
+    
+    printf("           [ M E N U   P R I N C I P A L ]\n");
+    printf(" ───────────────────────────────────────────────────\n");
+    printf("  ║  1 ➔ CONFIGURAR O PERFIL                      ║\n");
+    printf("  ║  2 ➔ CALCULAR CUSTO POR USO                   ║\n");
+    printf("  ║  3 ➔ DESEJA PARCELAR                          ║\n");
+    printf("  ║  4 ➔ QUAL SUA ECONOMIA ATE O MOMENTO?         ║\n");
+    printf(" ───────────────────────────────────────────────────\n");
+    printf("  >> SELECIONE O COMANDO: ");
+}
+
 
 
 void ConfPerfil(Perfil *p){

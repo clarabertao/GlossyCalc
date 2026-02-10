@@ -17,6 +17,8 @@ typedef struct
     float margem;
 }Perfil;
 
+void exibirMenu();
+
 void ConfPerfil(Perfil *p);
 
 int validarmargem(float perc);
